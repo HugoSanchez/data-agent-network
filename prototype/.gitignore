@@ -1,0 +1,11 @@
+# Environment variables (API keys)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# IDE
+.vscode/
+.idea/
