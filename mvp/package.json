@@ -1,0 +1,30 @@
+{
+  "name": "dan-mvp",
+  "version": "0.1.0",
+  "description": "Data Agent Network MVP — LibP2P + Tempo",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/node.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.82.0",
+    "@chainsafe/libp2p-gossipsub": "^14.1.2",
+    "@chainsafe/libp2p-noise": "^17.0.0",
+    "@chainsafe/libp2p-yamux": "^8.0.1",
+    "@hono/node-server": "^1.19.12",
+    "@libp2p/mdns": "^12.0.15",
+    "@libp2p/tcp": "^11.0.14",
+    "hono": "^4.12.10",
+    "it-length-prefixed-stream": "^2.0.4",
+    "libp2p": "^3.1.7",
+    "mppx": "^0.5.5",
+    "viem": "^2.47.10"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
