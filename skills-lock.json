@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "tempo-docs": {
+      "source": "tempoxyz/docs",
+      "sourceType": "github",
+      "computedHash": "88832eeca3b0f769ab3c0198af54402d706adaa1bf7a5019693f0b5455d1c400"
+    }
+  }
+}
