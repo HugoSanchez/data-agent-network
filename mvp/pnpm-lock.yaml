@@ -32,6 +32,9 @@ importers:
       '@libp2p/mdns':
         specifier: ^11.0.47
         version: 11.0.47
+      '@libp2p/peer-id':
+        specifier: ^6.0.6
+        version: 6.0.6
       '@libp2p/tcp':
         specifier: ^10.1.19
         version: 10.1.19
@@ -54,6 +57,9 @@ importers:
         specifier: ^2.47.10
         version: 2.47.11(typescript@6.0.2)(zod@4.3.6)
     devDependencies:
+      '@types/node':
+        specifier: ^25.5.2
+        version: 25.5.2
       tsx:
         specifier: ^4.21.0
         version: 4.21.0
@@ -305,6 +311,9 @@ packages:
 
   '@libp2p/peer-id@5.1.9':
     resolution: {integrity: sha512-cVDp7lX187Epmi/zr0Qq2RsEMmueswP9eIxYSFoMcHL/qcvRFhsxOfUGB8361E26s2WJvC9sXZ0oJS9XVueJhQ==}
+
+  '@libp2p/peer-id@6.0.6':
+    resolution: {integrity: sha512-Bnwl1Eqw6TbXnTUQSz97yi+1zGsmUZIeYT1o1NXuya/qAilVkjRToaIM50bKcc/gW0Xv1Qi979xgSlRG+0mZFA==}
 
   '@libp2p/peer-record@8.0.35':
     resolution: {integrity: sha512-0818zvjKbucq5XBnusG8oSWxJ992rVry/2qlfcn/nyK/uDrZ12tjDYHNMCoOWTNeFvFUVkMg9pRkvXvTNp6Yiw==}
@@ -1031,6 +1040,13 @@ snapshots:
     dependencies:
       '@libp2p/crypto': 5.1.15
       '@libp2p/interface': 2.11.0
+      multiformats: 13.4.2
+      uint8arrays: 5.1.0
+
+  '@libp2p/peer-id@6.0.6':
+    dependencies:
+      '@libp2p/crypto': 5.1.15
+      '@libp2p/interface': 3.2.0
       multiformats: 13.4.2
       uint8arrays: 5.1.0
 
