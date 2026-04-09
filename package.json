@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"@libp2p/peer-id": "^6.0.6",
+		"@multiformats/multiaddr": "^13.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "^25.5.2"
+	}
+}

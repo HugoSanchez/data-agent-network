@@ -2,3 +2,4 @@ node_modules/
 dist/
 *.key
 .env
+.DS_Store
